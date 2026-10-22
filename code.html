@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100%;margin:0;padding:0;min-height:100%;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "primary-container": "#4338ca", "on-secondary-fixed-variant": "#003ea8", "surface-dim": "#cbdbf5", "inverse-primary": "#c3c0ff", "outline": "#777586", "secondary": "#0051d5", "surface-container": "#e5eeff", "surface-tint": "#5148d7", "background": "#f8f9ff", "primary-fixed-dim": "#c3c0ff", "on-tertiary-container": "#66daa8", "tertiary-container": "#005e40", "on-secondary": "#ffffff", "surface-container-high": "#dce9ff", "outline-variant": "#c7c4d7", "on-secondary-container": "#fefcff", "secondary-fixed-dim": "#b4c5ff", "inverse-on-surface": "#eaf1ff", "inverse-surface": "#213145", "surface": "#f8f9ff", "on-primary-fixed": "#100069", "secondary-fixed": "#dbe1ff", "surface-container-low": "#eff4ff", "on-primary-container": "#c1beff", "on-tertiary": "#ffffff", "on-error-container": "#93000a", "tertiary-fixed": "#85f8c4", "on-surface": "#0b1c30", "error-container": "#ffdad6", "surface-container-lowest": "#ffffff", "tertiary-fixed-dim": "#68dba9", "primary-fixed": "#e3dfff", "on-tertiary-fixed-variant": "#005137", "on-secondary-fixed": "#00174b", "surface-variant": "#d3e4fe", "on-primary-fixed-variant": "#372abf", "surface-container-highest": "#d3e4fe", "tertiary": "#00442d", "on-error": "#ffffff", "on-surface-variant": "#464554", "secondary-container": "#316bf3", "on-tertiary-fixed": "#002114", "on-primary": "#ffffff", "surface-bright": "#f8f9ff", "error": "#ba1a1a", "primary": "#2a14b4", "on-background": "#0b1c30" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin-mobile": "1rem", "gutter-mobile": "1rem", "space-xs": "0.25rem", "gutter": "1.5rem", "space-sm": "0.5rem", "space-xl": "2rem", "margin": "2rem", "space-md": "1rem", "space-2xl": "3rem", "space-lg": "1.5rem" }, "fontFamily": { "headline-lg-mobile": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "display-lg": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"] }, "fontSize": { "headline-lg-mobile": ["1.75rem", { "lineHeight": "2.25rem", "letterSpacing": "-0.01em", "fontWeight": "700" }], "body-lg": ["1.125rem", { "lineHeight": "1.75rem", "fontWeight": "400" }], "body-sm": ["0.8125rem", { "lineHeight": "1.25rem", "fontWeight": "400" }], "label-sm": ["0.6875rem", { "lineHeight": "0.875rem", "letterSpacing": "0.05em", "fontWeight": "700" }], "headline-md": ["1.5rem", { "lineHeight": "2rem", "letterSpacing": "-0.015em", "fontWeight": "600" }], "display-lg": ["3rem", { "lineHeight": "3.5rem", "letterSpacing": "-0.03em", "fontWeight": "800" }], "headline-lg": ["2.25rem", { "lineHeight": "2.75rem", "letterSpacing": "-0.02em", "fontWeight": "700" }], "label-lg": ["0.875rem", { "lineHeight": "1.25rem", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-sm": ["1.25rem", { "lineHeight": "1.75rem", "fontWeight": "600" }], "label-md": ["0.75rem", { "lineHeight": "1rem", "letterSpacing": "0.025em", "fontWeight": "600" }], "body-md": ["0.9375rem", { "lineHeight": "1.5rem", "fontWeight": "400" }] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased flex flex-col h-screen max-h-screen overflow-hidden">
+<header class="fixed top-0 inset-x-0 z-40 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe">
+<div class="h-20 px-margin-mobile flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[24px]">school</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-secondary font-semibold uppercase tracking-wider">2do Trimestre - 2026</span>
+<h1 class="font-headline-sm text-headline-sm text-on-surface font-bold truncate leading-tight">Carlos Mendoza</h1>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">4to Secundaria · EduTrack</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs shrink-0">
+<button aria-label="Actualizar datos" class="w-11 h-11 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" onclick="recalculateAndRender()" type="button">
+<span class="material-symbols-outlined text-[22px]">sync</span>
+</button>
+<button aria-label="Notificaciones" class="w-11 h-11 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container relative transition-colors" onclick="switchNavTab('notificaciones')" type="button">
+<span class="material-symbols-outlined text-[22px]">notifications</span>
+<span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-secondary"></span>
+</button>
+<button aria-label="Perfil" class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0 ml-space-xs cursor-pointer hover:opacity-90 transition-opacity" onclick="switchNavTab('perfil')" type="button">
+<span class="material-symbols-outlined text-on-primary text-[18px]">person</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Main Scroll Container -->
+<main class="flex-1 w-full overflow-y-auto overscroll-contain px-margin-mobile pt-24 pb-28 bg-surface">
+<!-- ================= VIEW 1: MATERIAS (EXISTING FULL WORKFLOW) ================= -->
+<div class="flex flex-col w-full pb-4" id="view-materias">
+<!-- Multi-Subject Horizontal Tabs Bar -->
+<div class="flex items-center justify-between gap-2 mb-3">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[20px]">auto_stories</span>
+<h3 class="font-label-lg text-label-lg font-bold text-on-surface">Asignaturas</h3>
+</div>
+<button class="h-8 px-2.5 rounded-lg bg-surface-container hover:bg-surface-container-high text-primary font-label-sm text-label-sm font-bold flex items-center gap-1 transition-colors cursor-pointer" id="btnOpenNewSubjectModal" type="button">
+<span class="material-symbols-outlined text-[16px]">add_circle</span>
+<span>Nueva Materia</span>
+</button>
+</div>
+<div class="w-full overflow-x-auto pb-2 mb-4 scrollbar-none">
+<div class="flex items-center gap-2 min-w-max" id="subjectTabsContainer"></div>
+</div>
+<!-- Dynamic Dashboard / Hero Module (Base 90 Puntos) -->
+<section class="flex flex-col w-full bg-surface-container-lowest rounded-3xl p-5 shadow-sm transition-all duration-300">
+<div class="flex items-center justify-between gap-space-sm mb-3">
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary" id="activeSubjectBadge">Matemática</span>
+<span class="text-on-surface-variant/40 font-body-sm">•</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Rendimiento Trimestral</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold truncate">Calificación Acumulada</h2>
+</div>
+<div class="shrink-0 px-3 py-1 rounded-full bg-tertiary-container/15 text-tertiary font-label-md text-label-md font-bold flex items-center gap-1 transition-colors duration-300" id="statusBadge">
+<span class="material-symbols-outlined text-[16px]" id="statusIcon">verified</span>
+<span id="statusText">Sobresaliente</span>
+</div>
+</div>
+<!-- Big Score Display -->
+<div class="flex items-baseline gap-2 my-1">
+<span class="font-display-lg text-display-lg font-extrabold text-primary tracking-tight transition-all duration-300" id="totalScoreVal">76.7</span>
+<span class="font-headline-sm text-headline-sm text-on-surface-variant font-medium">/ 90.0 pts</span>
+<span class="ml-auto font-label-lg text-label-lg font-bold text-secondary bg-surface-container px-2.5 py-1 rounded-xl transition-all duration-300" id="totalPercentVal">85.2%</span>
+</div>
+<!-- Main 90-pts composite Progress Bar -->
+<div class="w-full bg-surface-container-high h-3.5 rounded-full overflow-hidden flex relative mt-2 mb-4 p-0.5">
+<div class="h-full bg-primary rounded-full transition-all duration-700 ease-out" id="mainProgressBar" style="width: 85.2%;"></div>
+</div>
+<!-- 3 Breakdown Sub-Metric Cards -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm w-full">
+<!-- Exámenes (45 pts) -->
+<div class="bg-surface-container-low rounded-2xl p-3 flex flex-col justify-between">
+<div class="flex items-center justify-between mb-1.5">
+<div class="flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container shrink-0"></span>
+<span class="font-label-md text-label-md font-bold text-on-surface">Exámenes</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Máx 45.0</span>
+</div>
+<div class="flex items-baseline justify-between mb-1">
+<span class="font-headline-sm text-headline-sm font-bold text-primary transition-all duration-300" id="examsScoreText">38.3</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant transition-all duration-300" id="examsAvgText">Prom: 85.0%</span>
+</div>
+<div class="w-full bg-surface-container-highest h-2 rounded-full overflow-hidden">
+<div class="h-full bg-primary-container rounded-full transition-all duration-500 ease-out" id="examsProgress" style="width: 85%;"></div>
+</div>
+</div>
+<!-- Tareas (40 pts) -->
+<div class="bg-surface-container-low rounded-2xl p-3 flex flex-col justify-between">
+<div class="flex items-center justify-between mb-1.5">
+<div class="flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary shrink-0"></span>
+<span class="font-label-md text-label-md font-bold text-on-surface">Tareas</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Máx 40.0</span>
+</div>
+<div class="flex items-baseline justify-between mb-1">
+<span class="font-headline-sm text-headline-sm font-bold text-secondary transition-all duration-300" id="hwScoreText">34.0</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant transition-all duration-300" id="hwAvgText">Prom: 85.0%</span>
+</div>
+<div class="w-full bg-surface-container-highest h-2 rounded-full overflow-hidden">
+<div class="h-full bg-secondary rounded-full transition-all duration-500 ease-out" id="hwProgress" style="width: 85%;"></div>
+</div>
+</div>
+<!-- Autoevaluación (5 pts) -->
+<div class="bg-surface-container-low rounded-2xl p-3 flex flex-col justify-between">
+<div class="flex items-center justify-between mb-1.5">
+<div class="flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary-container shrink-0"></span>
+<span class="font-label-md text-label-md font-bold text-on-surface">Autoeval.</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Máx 5.0</span>
+</div>
+<div class="flex items-baseline justify-between mb-1">
+<span class="font-headline-sm text-headline-sm font-bold text-tertiary transition-all duration-300" id="selfScoreText">4.4</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant transition-all duration-300" id="selfAvgText">Prom: 88.0%</span>
+</div>
+<div class="w-full bg-surface-container-highest h-2 rounded-full overflow-hidden">
+<div class="h-full bg-tertiary-container rounded-full transition-all duration-500 ease-out" id="selfProgress" style="width: 88.0%;"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Quick Action & Reset Row -->
+<div class="flex items-center justify-between gap-space-sm mt-5 mb-3">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[22px]">assignment</span>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Registro de Actividades</h3>
+</div>
+<div class="flex items-center gap-2">
+<button class="h-9 px-3 rounded-xl bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-md text-label-md flex items-center gap-1 transition-colors" id="btnResetDemo" title="Restaurar datos predeterminados de la materia actual" type="button">
+<span class="material-symbols-outlined text-[18px]">restart_alt</span>
+<span class="hidden sm:inline">Restablecer</span>
+</button>
+<button class="h-10 px-4 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-semibold shadow-sm hover:bg-primary-container transition-all flex items-center gap-1.5 active:scale-95 cursor-pointer" id="btnOpenModal" type="button">
+<span class="material-symbols-outlined text-[20px]">add</span>
+<span>Nueva Nota</span>
+</button>
+</div>
+</div>
+<!-- Category Filter Tabs -->
+<div class="w-full overflow-x-auto pb-1 mb-3 scrollbar-none">
+<div class="flex items-center gap-2 min-w-max" id="categoryFilterContainer">
+<button class="cat-filter-btn px-3.5 py-1.5 rounded-full font-label-md text-label-md font-semibold transition-all bg-primary text-on-primary shadow-sm cursor-pointer" data-cat="all">
+          Todas <span class="ml-1 opacity-80" id="countAll">(5)</span>
+</button>
+<button class="cat-filter-btn px-3.5 py-1.5 rounded-full font-label-md text-label-md font-semibold transition-all bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container-low cursor-pointer" data-cat="Exámenes">
+          Exámenes <span class="ml-1 opacity-70" id="countExams">(2)</span>
+</button>
+<button class="cat-filter-btn px-3.5 py-1.5 rounded-full font-label-md text-label-md font-semibold transition-all bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container-low cursor-pointer" data-cat="Tareas">
+          Tareas <span class="ml-1 opacity-70" id="countHw">(2)</span>
+</button>
+<button class="cat-filter-btn px-3.5 py-1.5 rounded-full font-label-md text-label-md font-semibold transition-all bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container-low cursor-pointer" data-cat="Autoevaluación">
+          Autoevaluación <span class="ml-1 opacity-70" id="countSelf">(1)</span>
+</button>
+</div>
+</div>
+<!-- Activities List Container -->
+<div class="flex flex-col gap-space-sm w-full" id="activitiesList"></div>
+<!-- Empty State -->
+<div class="hidden flex-col items-center justify-center p-8 bg-surface-container-lowest rounded-3xl text-center mt-2" id="emptyState">
+<div class="w-16 h-16 rounded-full bg-surface-container flex items-center justify-center text-secondary mb-3">
+<span class="material-symbols-outlined text-[32px]">folder_off</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-1">Sin actividades registradas</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-xs mb-4">No hay calificaciones bajo este filtro para la materia seleccionada. Registra una nueva nota o restablece los datos de prueba.</p>
+<button class="h-10 px-4 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-semibold inline-flex items-center gap-1.5 cursor-pointer" id="btnEmptyAdd" type="button">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Registrar Calificación</span>
+</button>
+</div>
+<!-- Pedagogical Explanation Note Card -->
+<div class="mt-6 p-4 rounded-2xl bg-surface-container-low flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary shrink-0 mt-0.5 text-[22px]">info</span>
+<div class="flex flex-col">
+<h5 class="font-label-lg text-label-lg font-bold text-on-surface">Estructura Curricular Base 90 Puntos</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+          Las calificaciones se registran de 0 a 100 y se convierten de forma continua a su peso respectivo: 
+          <strong class="text-on-surface">Exámenes (45 pts)</strong>, 
+          <strong class="text-on-surface">Tareas (40 pts)</strong> y 
+          <strong class="text-on-surface">Autoevaluación (5 pts)</strong>.
+        </p>
+</div>
+</div>
+</div>
+<!-- ================= VIEW 2: NOTIFICACIONES ================= -->
+<div class="hidden flex-col w-full pb-4" id="view-notificaciones">
+<!-- Header info -->
+<div class="flex items-center justify-between mb-4">
+<div>
+<h2 class="font-headline-md text-headline-md font-bold text-on-surface">Centro de Notificaciones</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Actualizaciones académicas y alertas recientes</p>
+</div>
+<button class="text-secondary font-label-sm text-label-sm font-bold hover:underline" onclick="markAllNotificationsRead()" type="button">
+        Marcar leídas
+      </button>
+</div>
+<!-- Filter Pills for Notifications -->
+<div class="w-full overflow-x-auto pb-2 mb-4 scrollbar-none">
+<div class="flex items-center gap-2 min-w-max" id="notifFilterBar">
+<button class="notif-filter-btn px-3.5 py-1.5 rounded-full font-label-md text-label-md font-semibold bg-primary text-on-primary shadow-sm cursor-pointer" data-nfilter="all" onclick="filterNotifications('all', this)" type="button">
+          Todas (5)
+        </button>
+<button class="notif-filter-btn px-3.5 py-1.5 rounded-full font-label-md text-label-md font-semibold bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container-low cursor-pointer" data-nfilter="notas" onclick="filterNotifications('notas', this)" type="button">
+          Notas (2)
+        </button>
+<button class="notif-filter-btn px-3.5 py-1.5 rounded-full font-label-md text-label-md font-semibold bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container-low cursor-pointer" data-nfilter="recordatorios" onclick="filterNotifications('recordatorios', this)" type="button">
+          Recordatorios (2)
+        </button>
+<button class="notif-filter-btn px-3.5 py-1.5 rounded-full font-label-md text-label-md font-semibold bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container-low cursor-pointer" data-nfilter="avisos" onclick="filterNotifications('avisos', this)" type="button">
+          Avisos (1)
+        </button>
+</div>
+</div>
+<!-- Notification Cards List -->
+<div class="flex flex-col gap-3" id="notificationsFeed">
+<!-- Item 1: Matemática new grade -->
+<div class="notif-item p-4 bg-surface-container-lowest rounded-2xl border-l-4 border-primary shadow-sm hover:shadow transition-all flex items-start gap-3.5" data-category="notas">
+<div class="w-10 h-10 rounded-xl bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">military_tech</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center justify-between gap-2">
+<span class="font-label-sm text-label-sm font-bold text-primary">Matemática · Nueva Nota</span>
+<span class="text-xs text-on-surface-variant">Hace 25 min</span>
+</div>
+<h4 class="font-label-lg text-label-lg font-bold text-on-surface mt-0.5">Taller Grupal: Vectores y Matrices</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Se ha publicado la calificación oficial: <strong class="text-on-surface font-semibold">92.0 / 100</strong> (36.8 pts ponderados en Tareas).
+          </p>
+</div>
+</div>
+<!-- Item 2: Lenguaje Due Tomorrow -->
+<div class="notif-item p-4 bg-surface-container-lowest rounded-2xl border-l-4 border-amber-500 shadow-sm hover:shadow transition-all flex items-start gap-3.5" data-category="recordatorios">
+<div class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-600 flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">alarm</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center justify-between gap-2">
+<span class="font-label-sm text-label-sm font-bold text-amber-600">Lenguaje · Recordatorio</span>
+<span class="text-xs text-on-surface-variant">Vence Mañana</span>
+</div>
+<h4 class="font-label-lg text-label-lg font-bold text-on-surface mt-0.5">Entrega: Ensayo Argumentativo Final</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Recuerda subir el documento en PDF a la plataforma antes de las 23:59 hrs. Ponderación: 40 pts.
+          </p>
+</div>
+</div>
+<!-- Item 3: Física Ponderation Recalculation -->
+<div class="notif-item p-4 bg-surface-container-lowest rounded-2xl border-l-4 border-secondary shadow-sm hover:shadow transition-all flex items-start gap-3.5" data-category="notas">
+<div class="w-10 h-10 rounded-xl bg-secondary/10 text-secondary flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">query_stats</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center justify-between gap-2">
+<span class="font-label-sm text-label-sm font-bold text-secondary">Física · Recálculo Ponderado</span>
+<span class="text-xs text-on-surface-variant">Ayer</span>
+</div>
+<h4 class="font-label-lg text-label-lg font-bold text-on-surface mt-0.5">Calificación Acumulada Actualizada</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Tu promedio ponderado actual se ubica en <strong class="text-on-surface font-semibold">76.7 / 90.0 pts</strong> (85.2%) con nivel Sobresaliente.
+          </p>
+</div>
+</div>
+<!-- Item 4: Química Announcement -->
+<div class="notif-item p-4 bg-surface-container-lowest rounded-2xl border-l-4 border-secondary shadow-sm hover:shadow transition-all flex items-start gap-3.5" data-category="avisos">
+<div class="w-10 h-10 rounded-xl bg-surface-container text-on-surface-variant flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">science</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center justify-between gap-2">
+<span class="font-label-sm text-label-sm font-bold text-on-surface-variant">Química · Aviso General</span>
+<span class="text-xs text-on-surface-variant">Hace 2 días</span>
+</div>
+<h4 class="font-label-lg text-label-lg font-bold text-on-surface mt-0.5">Material de Laboratorio para Semana 12</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Se requiere bata blanca y guía impresa de reactivos redox para ingresar a la práctica.
+          </p>
+</div>
+</div>
+<!-- Item 5: Autoevaluación Rubrica -->
+<div class="notif-item p-4 bg-surface-container-lowest rounded-2xl border-l-4 border-tertiary shadow-sm hover:shadow transition-all flex items-start gap-3.5" data-category="recordatorios">
+<div class="w-10 h-10 rounded-xl bg-tertiary-container/15 text-tertiary flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">psychology</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center justify-between gap-2">
+<span class="font-label-sm text-label-sm font-bold text-tertiary">Autoevaluación · Rúbrica Abierta</span>
+<span class="text-xs text-on-surface-variant">Hace 3 días</span>
+</div>
+<h4 class="font-label-lg text-label-lg font-bold text-on-surface mt-0.5">Formulario Trimestral Disponible</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Completa la autoevaluación actitudinal (5.0 pts) antes del cierre de actas institucionales.
+          </p>
+</div>
+</div>
+</div>
+</div>
+<!-- ================= VIEW 3: PERFIL ================= -->
+<div class="hidden flex-col w-full pb-4" id="view-perfil">
+<!-- Profile Card Hero -->
+<div class="p-6 bg-surface-container-lowest rounded-3xl shadow-sm flex flex-col items-center text-center relative overflow-hidden">
+<div class="absolute -right-10 -top-10 w-36 h-36 bg-primary/5 rounded-full pointer-events-none"></div>
+<div class="w-20 h-20 rounded-full bg-primary text-on-primary flex items-center justify-center text-3xl font-bold shadow-md shadow-primary/20 mb-3">
+        CM
+      </div>
+<h2 class="font-headline-sm text-headline-sm font-bold text-on-surface">Carlos Mendoza</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">4to Secundaria · Sección B · Matrícula 2026-A</p>
+<div class="flex items-center gap-2 mt-3">
+<span class="px-3 py-1 rounded-full bg-tertiary-container/15 text-tertiary font-label-md text-label-md font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+          Alumno Regular Activo
+        </span>
+<span class="px-3 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md">
+          ID: #EST-8942
+        </span>
+</div>
+</div>
+<!-- Academic Overall Stats -->
+<div class="grid grid-cols-2 gap-3 mt-4">
+<div class="p-4 bg-surface-container-lowest rounded-2xl shadow-sm flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Promedio Ponderado</span>
+<div class="flex items-baseline gap-1 mt-1">
+<span class="font-headline-lg text-headline-lg font-bold text-primary">78.4</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">/ 90.0</span>
+</div>
+<span class="text-xs text-secondary font-semibold mt-1">Equivalente 87.1%</span>
+</div>
+<div class="p-4 bg-surface-container-lowest rounded-2xl shadow-sm flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Materias en Curso</span>
+<div class="flex items-baseline gap-1 mt-1">
+<span class="font-headline-lg text-headline-lg font-bold text-on-surface" id="profileTotalSubjectsCount">4</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">asignaturas</span>
+</div>
+<span class="text-xs text-tertiary font-semibold mt-1">100% evaluadas al día</span>
+</div>
+</div>
+<!-- Quick Info List -->
+<div class="mt-4 p-4 bg-surface-container-lowest rounded-2xl shadow-sm flex flex-col gap-3">
+<h3 class="font-label-lg text-label-lg font-bold text-on-surface">Datos Institucionales</h3>
+<div class="flex items-center justify-between py-1 border-b border-surface-container">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Institución Educativa</span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface">Colegio Mayor San Ignacio</span>
+</div>
+<div class="flex items-center justify-between py-1 border-b border-surface-container">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Tutor Académico</span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface">Prof. Miguel Ángel Flores</span>
+</div>
+<div class="flex items-center justify-between py-1 border-b border-surface-container">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Periodo Vigente</span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface">2do Trimestre 2026</span>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Cierre de Calificaciones</span>
+<span class="font-body-sm text-body-sm font-semibold text-error">30 de Junio, 2026</span>
+</div>
+</div>
+<!-- Settings & Quick Actions -->
+<div class="mt-4 p-4 bg-surface-container-lowest rounded-2xl shadow-sm flex flex-col gap-2">
+<h3 class="font-label-lg text-label-lg font-bold text-on-surface mb-1">Ajustes Rápidos</h3>
+<button class="w-full h-11 px-3 rounded-xl bg-surface-container-low hover:bg-surface-container flex items-center justify-between text-on-surface transition-colors cursor-pointer" onclick="switchNavTab('materias')" type="button">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px] text-primary">school</span>
+<span class="font-body-sm text-body-sm font-medium">Volver a Panel de Calificaciones</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">chevron_right</span>
+</button>
+<button class="w-full h-11 px-3 rounded-xl bg-surface-container-low hover:bg-surface-container flex items-center justify-between text-on-surface transition-colors cursor-pointer" onclick="switchNavTab('notificaciones')" type="button">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px] text-secondary">notifications</span>
+<span class="font-body-sm text-body-sm font-medium">Ver Alertas y Avisos Pendientes</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">chevron_right</span>
+</button>
+</div>
+</div>
+</main>
+<!-- ================= MODALS (PRESERVED GLOBAL) ================= -->
+<!-- Modal: Agregar Nota -->
+<div class="fixed inset-0 bg-inverse-surface/60 backdrop-blur-sm z-50 flex flex-col justify-end sm:justify-center items-center p-0 sm:p-4 transition-opacity duration-200 hidden" id="gradeModal">
+<div class="w-full max-w-lg bg-surface-container-lowest rounded-t-3xl sm:rounded-3xl p-6 shadow-xl flex flex-col max-h-[90vh] overflow-y-auto animate-in fade-in slide-in-from-bottom duration-300">
+<div class="flex items-center justify-between pb-3 mb-4 border-b border-surface-container">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">post_add</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Registrar Calificación</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Añadir evidencia o evaluación</span>
+</div>
+</div>
+<button class="w-9 h-9 rounded-full bg-surface-container-low text-on-surface-variant hover:text-on-surface flex items-center justify-center transition-colors cursor-pointer" id="btnCloseModal" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<form class="flex flex-col gap-4" id="addGradeForm" onsubmit="return false;">
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md font-bold text-on-surface" for="modal-subject-select">Materia Destino</label>
+<div class="relative">
+<select class="w-full h-11 pl-3.5 pr-8 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary/20 focus:bg-surface-container transition-colors appearance-none cursor-pointer" id="modal-subject-select"></select>
+<span class="material-symbols-outlined absolute right-3 top-3 text-[18px] text-on-surface-variant pointer-events-none">expand_more</span>
+</div>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md font-bold text-on-surface" for="activity-name">Nombre de la Actividad</label>
+<input class="w-full h-11 px-3.5 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/50 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:bg-surface-container transition-colors" id="activity-name" placeholder="Ej. Control de Lectura Bimestral" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md font-bold text-on-surface">Categoría y Ponderación</label>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+<label class="flex flex-col p-2.5 rounded-xl bg-surface-container-low cursor-pointer transition-colors has-[:checked]:bg-primary-container has-[:checked]:text-on-primary">
+<input checked="" class="sr-only" name="categoryOption" type="radio" value="Exámenes"/>
+<span class="font-label-md text-label-md font-bold">Exámenes</span>
+<span class="font-label-sm text-label-sm opacity-80">Máx. 45.0 pts</span>
+</label>
+<label class="flex flex-col p-2.5 rounded-xl bg-surface-container-low cursor-pointer transition-colors has-[:checked]:bg-secondary has-[:checked]:text-on-secondary">
+<input class="sr-only" name="categoryOption" type="radio" value="Tareas"/>
+<span class="font-label-md text-label-md font-bold">Tareas</span>
+<span class="font-label-sm text-label-sm opacity-80">Máx. 40.0 pts</span>
+</label>
+<label class="flex flex-col p-2.5 rounded-xl bg-surface-container-low cursor-pointer transition-colors has-[:checked]:bg-tertiary-container has-[:checked]:text-on-tertiary">
+<input class="sr-only" name="categoryOption" type="radio" value="Autoevaluación"/>
+<span class="font-label-md text-label-md font-bold">Autoeval.</span>
+<span class="font-label-sm text-label-sm opacity-80">Máx. 5.0 pts</span>
+</label>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md font-bold text-on-surface" for="activity-date">Fecha</label>
+<input class="w-full h-11 px-3 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary/20 focus:bg-surface-container transition-colors" id="activity-date" required="" type="date"/>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md font-bold text-on-surface" for="activity-score">Puntaje (0 - 100)</label>
+<div class="relative flex items-center">
+<input class="w-full h-11 pl-3.5 pr-10 rounded-xl bg-surface-container-low text-on-surface font-headline-sm text-headline-sm font-bold focus:outline-none focus:ring-2 focus:ring-primary/20 focus:bg-surface-container transition-colors" id="activity-score" max="100" min="0" placeholder="85.0" required="" step="0.1" type="number"/>
+<span class="absolute right-3 font-label-md text-label-md font-bold text-on-surface-variant">/100</span>
+</div>
+</div>
+</div>
+<div class="p-3 rounded-xl bg-surface-container-low flex items-center gap-2.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px] text-secondary shrink-0">calculate</span>
+<span class="font-body-sm text-body-sm">El sistema convertirá automáticamente el valor al peso de la materia seleccionada.</span>
+</div>
+<div class="flex items-center gap-2 pt-2">
+<button class="w-1/3 h-11 rounded-xl bg-surface-container text-on-surface-variant font-label-lg text-label-lg font-semibold hover:bg-surface-container-high transition-colors cursor-pointer" id="btnCancelModal" type="button">
+          Cancelar
+        </button>
+<button class="w-2/3 h-11 rounded-xl bg-primary text-on-primary font-label-lg text-label-lg font-bold shadow-md hover:bg-primary-container transition-all flex items-center justify-center gap-1.5 cursor-pointer active:scale-98" id="btnGuardarRecalcular" onclick="guardarYRecalcular(event)" type="button">
+<span class="material-symbols-outlined text-[20px]">save</span>
+<span>Guardar y Recalcular</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+<!-- Modal: Agregar Nueva Materia -->
+<div class="fixed inset-0 bg-inverse-surface/60 backdrop-blur-sm z-50 flex flex-col justify-end sm:justify-center items-center p-0 sm:p-4 transition-opacity duration-200 hidden" id="newSubjectModal">
+<div class="w-full max-w-md bg-surface-container-lowest rounded-t-3xl sm:rounded-3xl p-6 shadow-xl flex flex-col max-h-[90vh] overflow-y-auto animate-in fade-in slide-in-from-bottom duration-300">
+<div class="flex items-center justify-between pb-3 mb-4 border-b border-surface-container">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-lg bg-secondary/10 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">library_add</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Nueva Asignatura</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Añadir materia al periodo actual</span>
+</div>
+</div>
+<button class="w-9 h-9 rounded-full bg-surface-container-low text-on-surface-variant hover:text-on-surface flex items-center justify-center transition-colors cursor-pointer" id="btnCloseNewSubjectModal" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<form class="flex flex-col gap-4" id="newSubjectForm" onsubmit="return false;">
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md font-bold text-on-surface" for="new-subject-name">Nombre de la Asignatura</label>
+<input class="w-full h-11 px-3.5 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/50 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:bg-surface-container transition-colors" id="new-subject-name" placeholder="Ej. Biología, Historia, Filosofía..." required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md font-bold text-on-surface">Ícono Representativo</label>
+<div class="grid grid-cols-4 gap-2" id="iconPickerContainer">
+<label class="flex items-center justify-center h-12 rounded-xl bg-surface-container-low cursor-pointer transition-colors has-[:checked]:bg-primary has-[:checked]:text-on-primary">
+<input checked="" class="sr-only" name="subjectIconOption" type="radio" value="biotech"/>
+<span class="material-symbols-outlined text-[24px]">biotech</span>
+</label>
+<label class="flex items-center justify-center h-12 rounded-xl bg-surface-container-low cursor-pointer transition-colors has-[:checked]:bg-primary has-[:checked]:text-on-primary">
+<input class="sr-only" name="subjectIconOption" type="radio" value="public"/>
+<span class="material-symbols-outlined text-[24px]">public</span>
+</label>
+<label class="flex items-center justify-center h-12 rounded-xl bg-surface-container-low cursor-pointer transition-colors has-[:checked]:bg-primary has-[:checked]:text-on-primary">
+<input class="sr-only" name="subjectIconOption" type="radio" value="psychology"/>
+<span class="material-symbols-outlined text-[24px]">psychology</span>
+</label>
+<label class="flex items-center justify-center h-12 rounded-xl bg-surface-container-low cursor-pointer transition-colors has-[:checked]:bg-primary has-[:checked]:text-on-primary">
+<input class="sr-only" name="subjectIconOption" type="radio" value="menu_book"/>
+<span class="material-symbols-outlined text-[24px]">menu_book</span>
+</label>
+</div>
+</div>
+<div class="flex items-center gap-2 pt-2">
+<button class="w-1/3 h-11 rounded-xl bg-surface-container text-on-surface-variant font-label-lg text-label-lg font-semibold hover:bg-surface-container-high transition-colors cursor-pointer" id="btnCancelNewSubjectModal" type="button">
+          Cancelar
+        </button>
+<button class="w-2/3 h-11 rounded-xl bg-primary text-on-primary font-label-lg text-label-lg font-bold shadow-md hover:bg-primary-container transition-all flex items-center justify-center gap-1.5 cursor-pointer active:scale-98" onclick="guardarNuevaMateria(event)" type="button">
+<span class="material-symbols-outlined text-[20px]">add</span>
+<span>Crear Asignatura</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+<!-- ================= PERSISTENT FIXED BOTTOM NAVIGATION BAR ================= -->
+<nav class="fixed bottom-0 inset-x-0 z-40 pb-safe bg-surface/90 backdrop-blur-xl border-t border-surface-container shadow-[0_-2px_12px_rgba(0,0,0,0.06)]" id="bottomNav">
+<div class="h-16 px-4 flex items-center justify-around max-w-lg mx-auto">
+<!-- Tab 1: Materias -->
+<button class="nav-tab-btn flex flex-col items-center justify-center flex-1 h-full text-primary transition-colors cursor-pointer relative" data-target="materias" id="nav-btn-materias" onclick="switchNavTab('materias')" type="button">
+<div class="w-10 h-7 flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">school</span>
+</div>
+<span class="font-label-sm text-[11px] font-bold tracking-tight">Materias</span>
+</button>
+<!-- Tab 2: Notificaciones -->
+<button class="nav-tab-btn flex flex-col items-center justify-center flex-1 h-full text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer relative" data-target="notificaciones" id="nav-btn-notificaciones" onclick="switchNavTab('notificaciones')" type="button">
+<div class="w-10 h-7 flex items-center justify-center relative">
+<span class="material-symbols-outlined text-[24px]">notifications</span>
+<span class="absolute top-0 right-1 px-1.5 py-0.2 rounded-full bg-secondary text-on-secondary text-[10px] font-bold" id="bottomNotifBadge">3</span>
+</div>
+<span class="font-label-sm text-[11px] font-semibold tracking-tight">Notificaciones</span>
+</button>
+<!-- Tab 3: Perfil -->
+<button class="nav-tab-btn flex flex-col items-center justify-center flex-1 h-full text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer relative" data-target="perfil" id="nav-btn-perfil" onclick="switchNavTab('perfil')" type="button">
+<div class="w-10 h-7 flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">person</span>
+</div>
+<span class="font-label-sm text-[11px] font-semibold tracking-tight">Perfil</span>
+</button>
+</div>
+</nav>
+<script>
+// ================= DATA STORE & STATE =================
+const INITIAL_SUBJECTS_DATA = {
+  mate: {
+    id: "mate",
+    name: "Matemática",
+    icon: "calculate",
+    activities: [
+      { id: "act-m1", name: "Examen Parcial de Matemáticas", category: "Exámenes", date: "12 May 2025", score: 88.0 },
+      { id: "act-m2", name: "Taller Grupal: Vectores y Matrices", category: "Tareas", date: "08 May 2025", score: 92.0 },
+      { id: "act-m3", name: "Examen Corto: Funciones y Límites", category: "Exámenes", date: "28 Abr 2025", score: 82.0 },
+      { id: "act-m4", name: "Guía Práctica de Laboratorio #3", category: "Tareas", date: "22 Abr 2025", score: 78.0 },
+      { id: "act-m5", name: "Rúbrica de Autoevaluación Trimestral", category: "Autoevaluación", date: "15 May 2025", score: 88.0 }
+    ]
+  },
+  fisica: {
+    id: "fisica",
+    name: "Física",
+    icon: "bolt",
+    activities: [
+      { id: "act-f1", name: "Examen Teórico: Cinemática y Fuerzas", category: "Exámenes", date: "10 May 2025", score: 94.0 },
+      { id: "act-f2", name: "Informe de Óptica y Ondas", category: "Tareas", date: "04 May 2025", score: 86.0 },
+      { id: "act-f3", name: "Examen Práctico de Dinámica", category: "Exámenes", date: "25 Abr 2025", score: 90.0 },
+      { id: "act-f4", name: "Resolución de Problemas Guía #2", category: "Tareas", date: "18 Abr 2025", score: 88.0 },
+      { id: "act-f5", name: "Autoevaluación de Laboratorio", category: "Autoevaluación", date: "14 May 2025", score: 95.0 }
+    ]
+  },
+  lenguaje: {
+    id: "lenguaje",
+    name: "Lenguaje",
+    icon: "menu_book",
+    activities: [
+      { id: "act-l1", name: "Análisis Literario: Cien Años de Soledad", category: "Tareas", date: "11 May 2025", score: 80.0 },
+      { id: "act-l2", name: "Examen Parcial de Sintaxis y Semántica", category: "Exámenes", date: "05 May 2025", score: 74.0 },
+      { id: "act-l3", name: "Ensayo Argumentativo de Ensayo Libre", category: "Tareas", date: "29 Abr 2025", score: 82.0 },
+      { id: "act-l4", name: "Autoevaluación Expresión Oral", category: "Autoevaluación", date: "12 May 2025", score: 80.0 }
+    ]
+  },
+  quimica: {
+    id: "quimica",
+    name: "Química",
+    icon: "science",
+    activities: [
+      { id: "act-q1", name: "Examen de Enlace Químico y Estequiometría", category: "Exámenes", date: "13 May 2025", score: 68.0 },
+      { id: "act-q2", name: "Reporte de Reacciones Redox", category: "Tareas", date: "07 May 2025", score: 72.0 },
+      { id: "act-q3", name: "Taller de Nomenclatura Inorgánica", category: "Tareas", date: "26 Abr 2025", score: 65.0 },
+      { id: "act-q4", name: "Autoevaluación de Hábitos de Laboratorio", category: "Autoevaluación", date: "15 May 2025", score: 70.0 }
+    ]
+  }
+};
+
+let subjects = JSON.parse(JSON.stringify(INITIAL_SUBJECTS_DATA));
+let currentSubjectId = "mate";
+let currentFilter = "all";
+let currentActiveTab = "materias";
+
+// DOM Elements
+const subjectTabsContainer = document.getElementById('subjectTabsContainer');
+const activeSubjectBadge = document.getElementById('activeSubjectBadge');
+const totalScoreVal = document.getElementById('totalScoreVal');
+const totalPercentVal = document.getElementById('totalPercentVal');
+const mainProgressBar = document.getElementById('mainProgressBar');
+const statusBadge = document.getElementById('statusBadge');
+const statusText = document.getElementById('statusText');
+const statusIcon = document.getElementById('statusIcon');
+
+const examsScoreText = document.getElementById('examsScoreText');
+const examsAvgText = document.getElementById('examsAvgText');
+const examsProgress = document.getElementById('examsProgress');
+
+const hwScoreText = document.getElementById('hwScoreText');
+const hwAvgText = document.getElementById('hwAvgText');
+const hwProgress = document.getElementById('hwProgress');
+
+const selfScoreText = document.getElementById('selfScoreText');
+const selfAvgText = document.getElementById('selfAvgText');
+const selfProgress = document.getElementById('selfProgress');
+
+const activitiesList = document.getElementById('activitiesList');
+const emptyState = document.getElementById('emptyState');
+
+const countAll = document.getElementById('countAll');
+const countExams = document.getElementById('countExams');
+const countHw = document.getElementById('countHw');
+const countSelf = document.getElementById('countSelf');
+
+const gradeModal = document.getElementById('gradeModal');
+const btnOpenModal = document.getElementById('btnOpenModal');
+const btnEmptyAdd = document.getElementById('btnEmptyAdd');
+const btnCloseModal = document.getElementById('btnCloseModal');
+const btnCancelModal = document.getElementById('btnCancelModal');
+const addGradeForm = document.getElementById('addGradeForm');
+const modalSubjectSelect = document.getElementById('modal-subject-select');
+const activityDateInput = document.getElementById('activity-date');
+const activityNameInput = document.getElementById('activity-name');
+const activityScoreInput = document.getElementById('activity-score');
+const btnResetDemo = document.getElementById('btnResetDemo');
+
+const newSubjectModal = document.getElementById('newSubjectModal');
+const btnOpenNewSubjectModal = document.getElementById('btnOpenNewSubjectModal');
+const btnCloseNewSubjectModal = document.getElementById('btnCloseNewSubjectModal');
+const btnCancelNewSubjectModal = document.getElementById('btnCancelNewSubjectModal');
+const newSubjectNameInput = document.getElementById('new-subject-name');
+const newSubjectForm = document.getElementById('newSubjectForm');
+
+// ================= VIEW SWITCHER (VANILLA JS) =================
+function switchNavTab(tabName) {
+  currentActiveTab = tabName;
+  const viewMaterias = document.getElementById('view-materias');
+  const viewNotificaciones = document.getElementById('view-notificaciones');
+  const viewPerfil = document.getElementById('view-perfil');
+
+  // Toggle containers
+  if (viewMaterias) {
+    if (tabName === 'materias') {
+      viewMaterias.classList.remove('hidden');
+      viewMaterias.classList.add('flex');
+    } else {
+      viewMaterias.classList.add('hidden');
+      viewMaterias.classList.remove('flex');
+    }
+  }
+
+  if (viewNotificaciones) {
+    if (tabName === 'notificaciones') {
+      viewNotificaciones.classList.remove('hidden');
+      viewNotificaciones.classList.add('flex');
+    } else {
+      viewNotificaciones.classList.add('hidden');
+      viewNotificaciones.classList.remove('flex');
+    }
+  }
+
+  if (viewPerfil) {
+    if (tabName === 'perfil') {
+      viewPerfil.classList.remove('hidden');
+      viewPerfil.classList.add('flex');
+      // Update profile counts dynamically
+      const profCount = document.getElementById('profileTotalSubjectsCount');
+      if (profCount) profCount.textContent = Object.keys(subjects).length;
+    } else {
+      viewPerfil.classList.add('hidden');
+      viewPerfil.classList.remove('flex');
+    }
+  }
+
+  // Update Bottom Nav active styles
+  const navBtns = document.querySelectorAll('.nav-tab-btn');
+  navBtns.forEach(btn => {
+    const target = btn.getAttribute('data-target');
+    const labelSpan = btn.querySelector('span.font-label-sm');
+    if (target === tabName) {
+      btn.className = "nav-tab-btn flex flex-col items-center justify-center flex-1 h-full text-primary transition-colors cursor-pointer relative";
+      if (labelSpan) {
+        labelSpan.className = "font-label-sm text-[11px] font-bold tracking-tight";
+      }
+    } else {
+      btn.className = "nav-tab-btn flex flex-col items-center justify-center flex-1 h-full text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer relative";
+      if (labelSpan) {
+        labelSpan.className = "font-label-sm text-[11px] font-semibold tracking-tight";
+      }
+    }
+  });
+
+  // Scroll to top of content container smoothly
+  const mainScroll = document.querySelector('main');
+  if (mainScroll) mainScroll.scrollTo({ top: 0, behavior: 'smooth' });
+}
+window.switchNavTab = switchNavTab;
+
+// Notifications helper functions
+function filterNotifications(filter, button) {
+  const notifItems = document.querySelectorAll('.notif-item');
+  notifItems.forEach(item => {
+    const cat = item.getAttribute('data-category');
+    if (filter === 'all' || cat === filter) {
+      item.classList.remove('hidden');
+      item.classList.add('flex');
+    } else {
+      item.classList.add('hidden');
+      item.classList.remove('flex');
+    }
+  });
+
+  const filterBtns = document.querySelectorAll('.notif-filter-btn');
+  filterBtns.forEach(b => {
+    b.className = "notif-filter-btn px-3.5 py-1.5 rounded-full font-label-md text-label-md font-semibold bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container-low cursor-pointer";
+  });
+  if (button) {
+    button.className = "notif-filter-btn px-3.5 py-1.5 rounded-full font-label-md text-label-md font-semibold bg-primary text-on-primary shadow-sm cursor-pointer";
+  }
+}
+window.filterNotifications = filterNotifications;
+
+function markAllNotificationsRead() {
+  const badge = document.getElementById('bottomNotifBadge');
+  if (badge) badge.classList.add('hidden');
+  const alertDot = document.querySelector('header .bg-secondary.rounded-full');
+  if (alertDot) alertDot.classList.add('hidden');
+}
+window.markAllNotificationsRead = markAllNotificationsRead;
+
+// ================= CORE GRADING & SUBJECTS LOGIC =================
+function getCategoryConfig(category) {
+  switch (category) {
+    case 'Exámenes':
+      return { icon: 'quiz', color: 'text-primary', bg: 'bg-primary/10', maxPts: 45 };
+    case 'Tareas':
+      return { icon: 'edit_note', color: 'text-secondary', bg: 'bg-secondary/10', maxPts: 40 };
+    case 'Autoevaluación':
+      return { icon: 'psychology', color: 'text-tertiary', bg: 'bg-tertiary/10', maxPts: 5 };
+    default:
+      return { icon: 'article', color: 'text-primary', bg: 'bg-primary/10', maxPts: 90 };
+  }
+}
+
+function renderSubjectTabs() {
+  if (!subjectTabsContainer) return;
+  subjectTabsContainer.innerHTML = '';
+
+  Object.values(subjects).forEach(sub => {
+    const isActive = sub.id === currentSubjectId;
+    const tabBtn = document.createElement('button');
+    tabBtn.type = 'button';
+    tabBtn.className = isActive
+      ? "flex items-center gap-1.5 px-4 py-2 rounded-2xl font-label-md text-label-md font-bold transition-all bg-primary text-on-primary shadow-md shadow-primary/20 scale-[1.02] cursor-pointer"
+      : "flex items-center gap-1.5 px-3.5 py-2 rounded-2xl font-label-md text-label-md font-semibold transition-all bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container hover:text-on-surface shadow-xs cursor-pointer";
+    
+    tabBtn.innerHTML = `
+      <span class="material-symbols-outlined text-[18px]">${sub.icon || 'book'}</span>
+      <span>${sub.name}</span>
+      <span class="ml-1 text-[11px] px-1.5 py-0.5 rounded-full ${isActive ? 'bg-white/20 text-white' : 'bg-surface-container text-on-surface-variant'}">${sub.activities.length}</span>
+    `;
+
+    tabBtn.onclick = () => {
+      if (currentSubjectId !== sub.id) {
+        currentSubjectId = sub.id;
+        renderSubjectTabs();
+        recalculateAndRender();
+      }
+    };
+
+    subjectTabsContainer.appendChild(tabBtn);
+  });
+
+  populateModalSubjectSelect();
+}
+
+function populateModalSubjectSelect() {
+  if (!modalSubjectSelect) return;
+  modalSubjectSelect.innerHTML = '';
+  Object.values(subjects).forEach(sub => {
+    const opt = document.createElement('option');
+    opt.value = sub.id;
+    opt.textContent = sub.name;
+    if (sub.id === currentSubjectId) opt.selected = true;
+    modalSubjectSelect.appendChild(opt);
+  });
+}
+
+function recalculateAndRender() {
+  const currentSub = subjects[currentSubjectId];
+  if (!currentSub) return;
+
+  if (activeSubjectBadge) {
+    activeSubjectBadge.textContent = currentSub.name;
+  }
+
+  const activities = currentSub.activities;
+  const examsList = activities.filter(a => a.category === 'Exámenes');
+  const hwList = activities.filter(a => a.category === 'Tareas');
+  const selfList = activities.filter(a => a.category === 'Autoevaluación');
+
+  // 1. Calculate Averages
+  const examsAvg = examsList.length ? (examsList.reduce((acc, curr) => acc + curr.score, 0) / examsList.length) : 0;
+  const hwAvg = hwList.length ? (hwList.reduce((acc, curr) => acc + curr.score, 0) / hwList.length) : 0;
+  const selfAvg = selfList.length ? (selfList.reduce((acc, curr) => acc + curr.score, 0) / selfList.length) : 0;
+
+  // 2. Calculate Weighted Points
+  const examsWeighted = (examsAvg / 100) * 45.0;
+  const hwWeighted = (hwAvg / 100) * 40.0;
+  const selfWeighted = (selfAvg / 100) * 5.0;
+  const totalScore = examsWeighted + hwWeighted + selfWeighted;
+  const totalPercentage = (totalScore / 90.0) * 100;
+
+  // 3. Update Hero DOM
+  if (totalScoreVal) totalScoreVal.textContent = totalScore.toFixed(1);
+  if (totalPercentVal) totalPercentVal.textContent = `${totalPercentage.toFixed(1)}%`;
+  if (mainProgressBar) mainProgressBar.style.width = `${Math.min(100, Math.max(0, totalPercentage)).toFixed(1)}%`;
+
+  if (statusBadge && statusText) {
+    if (totalScore >= 75) {
+      statusText.textContent = "Sobresaliente";
+      if (statusIcon) statusIcon.textContent = "verified";
+      statusBadge.className = "shrink-0 px-3 py-1 rounded-full bg-tertiary-container/15 text-tertiary font-label-md text-label-md font-bold flex items-center gap-1 transition-colors duration-300";
+    } else if (totalScore >= 65) {
+      statusText.textContent = "Notable";
+      if (statusIcon) statusIcon.textContent = "stars";
+      statusBadge.className = "shrink-0 px-3 py-1 rounded-full bg-secondary-container/15 text-secondary font-label-md text-label-md font-bold flex items-center gap-1 transition-colors duration-300";
+    } else if (totalScore >= 54) {
+      statusText.textContent = "Aprobatorio";
+      if (statusIcon) statusIcon.textContent = "check_circle";
+      statusBadge.className = "shrink-0 px-3 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md font-bold flex items-center gap-1 transition-colors duration-300";
+    } else {
+      statusText.textContent = "En Riesgo";
+      if (statusIcon) statusIcon.textContent = "warning";
+      statusBadge.className = "shrink-0 px-3 py-1 rounded-full bg-error-container text-on-error-container font-label-md text-label-md font-bold flex items-center gap-1 transition-colors duration-300";
+    }
+  }
+
+  // 4. Update Sub-Metrics
+  if (examsScoreText) examsScoreText.textContent = examsWeighted.toFixed(1);
+  if (examsAvgText) examsAvgText.textContent = `Prom: ${examsAvg.toFixed(1)}%`;
+  if (examsProgress) examsProgress.style.width = `${Math.min(100, (examsWeighted / 45.0) * 100)}%`;
+
+  if (hwScoreText) hwScoreText.textContent = hwWeighted.toFixed(1);
+  if (hwAvgText) hwAvgText.textContent = `Prom: ${hwAvg.toFixed(1)}%`;
+  if (hwProgress) hwProgress.style.width = `${Math.min(100, (hwWeighted / 40.0) * 100)}%`;
+
+  if (selfScoreText) selfScoreText.textContent = selfWeighted.toFixed(1);
+  if (selfAvgText) selfAvgText.textContent = `Prom: ${selfAvg.toFixed(1)}%`;
+  if (selfProgress) selfProgress.style.width = `${Math.min(100, (selfWeighted / 5.0) * 100)}%`;
+
+  // 5. Update Filter Tab Counts
+  if (countAll) countAll.textContent = `(${activities.length})`;
+  if (countExams) countExams.textContent = `(${examsList.length})`;
+  if (countHw) countHw.textContent = `(${hwList.length})`;
+  if (countSelf) countSelf.textContent = `(${selfList.length})`;
+
+  // 6. Render Filtered List
+  renderActivitiesList();
+}
+
+function renderActivitiesList() {
+  if (!activitiesList) return;
+  const currentSub = subjects[currentSubjectId];
+  if (!currentSub) return;
+
+  const activities = currentSub.activities;
+  const filtered = currentFilter === 'all' 
+    ? activities 
+    : activities.filter(a => a.category === currentFilter);
+
+  activitiesList.innerHTML = '';
+
+  if (filtered.length === 0) {
+    if (emptyState) {
+      emptyState.classList.remove('hidden');
+      emptyState.classList.add('flex');
+    }
+  } else {
+    if (emptyState) {
+      emptyState.classList.add('hidden');
+      emptyState.classList.remove('flex');
+    }
+
+    filtered.forEach(item => {
+      const catConfig = getCategoryConfig(item.category);
+      const weightedEquiv = ((item.score / 100) * catConfig.maxPts).toFixed(1);
+
+      const card = document.createElement('div');
+      card.className = "flex items-center justify-between p-4 bg-surface-container-lowest rounded-2xl shadow-sm hover:shadow transition-all duration-200";
+      card.innerHTML = `
+        <div class="flex items-center gap-3 min-w-0">
+          <div class="w-10 h-10 rounded-xl ${catConfig.bg} ${catConfig.color} flex items-center justify-center shrink-0">
+            <span class="material-symbols-outlined text-[20px]">${catConfig.icon}</span>
+          </div>
+          <div class="flex flex-col min-w-0">
+            <h4 class="font-label-lg text-label-lg font-bold text-on-surface truncate">${item.name}</h4>
+            <div class="flex items-center gap-2 mt-0.5">
+              <span class="font-label-sm text-label-sm font-semibold ${catConfig.color}">${item.category}</span>
+              <span class="text-on-surface-variant/40 font-body-sm text-body-sm">•</span>
+              <span class="font-body-sm text-body-sm text-on-surface-variant">${item.date}</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 shrink-0 ml-2">
+          <div class="flex flex-col items-end">
+            <span class="font-headline-sm text-headline-sm font-bold text-on-surface">${item.score.toFixed(1)} <span class="font-label-sm text-label-sm text-on-surface-variant font-normal">/100</span></span>
+            <span class="font-label-sm text-label-sm ${catConfig.color} font-medium">${weightedEquiv} pts ponderados</span>
+          </div>
+          <button onclick="eliminarActividad('${currentSubjectId}', '${item.id}', event)" type="button" class="w-8 h-8 rounded-lg text-on-surface-variant/70 hover:text-error hover:bg-error-container/20 flex items-center justify-center transition-colors cursor-pointer" title="Eliminar calificación">
+            <span class="material-symbols-outlined text-[18px]">delete</span>
+          </button>
+        </div>
+      `;
+
+      activitiesList.appendChild(card);
+    });
+  }
+}
+
+window.eliminarActividad = function(subjectId, activityId, event) {
+  if (event) {
+    event.preventDefault();
+    event.stopPropagation();
+  }
+  if (subjects[subjectId]) {
+    subjects[subjectId].activities = subjects[subjectId].activities.filter(a => a.id !== activityId);
+    renderSubjectTabs();
+    recalculateAndRender();
+  }
+};
+
+// Modal: Grade Controls
+function openModal() {
+  if (!gradeModal) return;
+  populateModalSubjectSelect();
+  if (modalSubjectSelect) modalSubjectSelect.value = currentSubjectId;
+  gradeModal.classList.remove('hidden');
+  gradeModal.classList.add('flex');
+  if (activityNameInput) {
+    setTimeout(() => activityNameInput.focus(), 50);
+  }
+}
+
+function closeModal() {
+  if (!gradeModal) return;
+  gradeModal.classList.add('hidden');
+  gradeModal.classList.remove('flex');
+  if (addGradeForm) {
+    addGradeForm.reset();
+  }
+  if (activityDateInput) {
+    activityDateInput.value = new Date().toISOString().split('T')[0];
+  }
+}
+
+window.openModal = openModal;
+window.closeModal = closeModal;
+
+window.guardarYRecalcular = function(event) {
+  if (event) {
+    event.preventDefault();
+    event.stopPropagation();
+  }
+
+  let targetSubId = modalSubjectSelect ? modalSubjectSelect.value : currentSubjectId;
+  const nameVal = activityNameInput ? activityNameInput.value.trim() : '';
+  const categoryElem = document.querySelector('input[name="categoryOption"]:checked');
+  const categoryVal = categoryElem ? categoryElem.value : 'Exámenes';
+  const dateVal = activityDateInput ? activityDateInput.value : '';
+  const scoreRaw = activityScoreInput ? activityScoreInput.value.trim() : '';
+  const scoreVal = parseFloat(scoreRaw);
+
+  if (!nameVal) {
+    if (activityNameInput) {
+      activityNameInput.focus();
+      activityNameInput.classList.add('ring-2', 'ring-error');
+      setTimeout(() => activityNameInput.classList.remove('ring-2', 'ring-error'), 1800);
+    }
+    return;
+  }
+
+  if (scoreRaw === '' || isNaN(scoreVal) || scoreVal < 0 || scoreVal > 100) {
+    if (activityScoreInput) {
+      activityScoreInput.focus();
+      activityScoreInput.classList.add('ring-2', 'ring-error');
+      setTimeout(() => activityScoreInput.classList.remove('ring-2', 'ring-error'), 1800);
+    }
+    return;
+  }
+
+  let formattedDate = 'Hoy';
+  if (dateVal) {
+    const parts = dateVal.split('-');
+    if (parts.length === 3) {
+      const months = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
+      const mIdx = parseInt(parts[1], 10) - 1;
+      formattedDate = `${parts[2]} ${months[mIdx] || parts[1]} ${parts[0]}`;
+    }
+  }
+
+  const newActivity = {
+    id: `act-${Date.now()}`,
+    name: nameVal,
+    category: categoryVal,
+    date: formattedDate,
+    score: scoreVal
+  };
+
+  if (!subjects[targetSubId]) {
+    targetSubId = currentSubjectId;
+  }
+
+  subjects[targetSubId].activities.unshift(newActivity);
+  currentSubjectId = targetSubId;
+
+  closeModal();
+  renderSubjectTabs();
+  recalculateAndRender();
+};
+
+function openNewSubjectModal() {
+  if (!newSubjectModal) return;
+  newSubjectModal.classList.remove('hidden');
+  newSubjectModal.classList.add('flex');
+  if (newSubjectNameInput) {
+    setTimeout(() => newSubjectNameInput.focus(), 50);
+  }
+}
+
+function closeNewSubjectModal() {
+  if (!newSubjectModal) return;
+  newSubjectModal.classList.add('hidden');
+  newSubjectModal.classList.remove('flex');
+  if (newSubjectForm) newSubjectForm.reset();
+}
+
+window.openNewSubjectModal = openNewSubjectModal;
+window.closeNewSubjectModal = closeNewSubjectModal;
+
+window.guardarNuevaMateria = function(event) {
+  if (event) {
+    event.preventDefault();
+    event.stopPropagation();
+  }
+
+  const name = newSubjectNameInput ? newSubjectNameInput.value.trim() : '';
+  if (!name) {
+    if (newSubjectNameInput) {
+      newSubjectNameInput.focus();
+      newSubjectNameInput.classList.add('ring-2', 'ring-error');
+      setTimeout(() => newSubjectNameInput.classList.remove('ring-2', 'ring-error'), 1800);
+    }
+    return;
+  }
+
+  const selectedIconElem = document.querySelector('input[name="subjectIconOption"]:checked');
+  const icon = selectedIconElem ? selectedIconElem.value : 'book';
+  const newId = `sub-${Date.now()}`;
+
+  subjects[newId] = {
+    id: newId,
+    name: name,
+    icon: icon,
+    activities: []
+  };
+
+  currentSubjectId = newId;
+  closeNewSubjectModal();
+  renderSubjectTabs();
+  recalculateAndRender();
+};
+
+// Event Listeners
+if (btnOpenModal) btnOpenModal.addEventListener('click', openModal);
+if (btnEmptyAdd) btnEmptyAdd.addEventListener('click', openModal);
+if (btnCloseModal) btnCloseModal.addEventListener('click', closeModal);
+if (btnCancelModal) btnCancelModal.addEventListener('click', closeModal);
+
+if (btnOpenNewSubjectModal) btnOpenNewSubjectModal.addEventListener('click', openNewSubjectModal);
+if (btnCloseNewSubjectModal) btnCloseNewSubjectModal.addEventListener('click', closeNewSubjectModal);
+if (btnCancelNewSubjectModal) btnCancelNewSubjectModal.addEventListener('click', closeNewSubjectModal);
+
+if (gradeModal) {
+  gradeModal.addEventListener('click', (e) => {
+    if (e.target === gradeModal) closeModal();
+  });
+}
+
+if (newSubjectModal) {
+  newSubjectModal.addEventListener('click', (e) => {
+    if (e.target === newSubjectModal) closeNewSubjectModal();
+  });
+}
+
+const filterBtns = document.querySelectorAll('.cat-filter-btn');
+filterBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    filterBtns.forEach(b => {
+      b.className = "cat-filter-btn px-3.5 py-1.5 rounded-full font-label-md text-label-md font-semibold transition-all bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container-low cursor-pointer";
+    });
+    btn.className = "cat-filter-btn px-3.5 py-1.5 rounded-full font-label-md text-label-md font-semibold transition-all bg-primary text-on-primary shadow-sm cursor-pointer";
+    currentFilter = btn.getAttribute('data-cat');
+    renderActivitiesList();
+  });
+});
+
+if (btnResetDemo) {
+  btnResetDemo.addEventListener('click', () => {
+    if (INITIAL_SUBJECTS_DATA[currentSubjectId]) {
+      subjects[currentSubjectId] = JSON.parse(JSON.stringify(INITIAL_SUBJECTS_DATA[currentSubjectId]));
+    } else {
+      subjects[currentSubjectId].activities = [];
+    }
+    renderSubjectTabs();
+    recalculateAndRender();
+  });
+}
+
+if (activityDateInput) {
+  activityDateInput.value = new Date().toISOString().split('T')[0];
+}
+
+// Initial Boot
+renderSubjectTabs();
+recalculateAndRender();
+</script>
+</body></html>
